@@ -54,3 +54,9 @@ x86_64-w64-mingw32-gcc -shared -o malware.dll test3.cpp
 
 
 rundll32 malware.dll,DllEntry
+
+
+References:
+https://www.a12d404.net/security/2019/01/01/side-loading-fun.html
+https://blog.didierstevens.com/2017/09/08/quickpost-dlldemo/
+https://www.offensive-security.com/metasploit-unleashed/msfvenom/
